@@ -875,11 +875,14 @@ float: right;
 	-o-transition: opacity .15s ease-in;
 }
 .team-name {
+	display: block;
 	text-align: center;
 	vertical-align: middle;
 }
 .team-subteam {
 	color: #dddddd;
+	display: block;
+	vertical-align: middle;
 	font-size: 12px;
 	font-style: italic;
 }
