@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Embeds Google Analytics into the page.
+ *
+ */
 function analytics() { 
 
 ?>
@@ -17,6 +20,29 @@ function analytics() {
 }
 
 
+
+/**
+ * Pulls the source for a header image depending on the page name. Also supports a default image with no name.
+ *
+ */
+function getHeaderImage($pagename) {
+
+	switch($pagename) {
+		case "team":
+			$headerImage = "";
+			break;
+		case "competition":
+			$headerImage = "";
+			break;
+		case "mission":
+			$headerImage = "";
+			break;
+		default:
+		
+			break;
+	}
+
+}
 
 
 

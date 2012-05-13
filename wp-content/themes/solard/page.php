@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="banner">
-	<h2><i><?php wp_title($sep); ?></i></h2>
+	<h2><?php wp_title($sep); ?></h2>
 </div>
 
 <div id="content_background">

@@ -18,9 +18,9 @@
 </head>
 <body>
 	<div id="header">
-		<div id="header_logo_container">
+		<a id="header_logo_container" href="/">
 <!-- 			<img src="<?php bloginfo("stylesheet_directory"); ?>" id="header_logo"> -->
-		</div>
+		</a>
 		<div id="main_nav">
 			<a id="donate-button" target="_blank" class="nav-button" href="http://go.middlebury.edu/givesd2013">
 				<div id="donate-image" class="button-image" ></div>
@@ -30,15 +30,15 @@
 				<div id="sr-image" class="button-image" ></div>
 				<div class="button-text">Our 2011 Home</div>
 			</a>-->
-			<a id="sponsors-button" class="nav-button" href="<?php echo get_category_link(); ?>" >
+			<a id="sponsors-button" class="nav-button" href="<?php echo get_permalink(22); ?>" >
 				<div id="sponsors-image" class="button-image"></div>
 				<div class="button-text">Sponsors</div>
 			</a>
-			<a id="competition-button" class="nav-button" href="<?php echo get_permalink(); ?>">
+			<a id="competition-button" class="nav-button" href="<?php echo get_permalink(26); ?>">
 				<div id="competition-image" class="button-image"></div>
 				<div class="button-text">Competition</div>
 			</a>
-			<a id="mission-button" class="nav-button" href="<?php echo get_permalink(26); ?>">
+			<a id="mission-button" class="nav-button" href="<?php echo get_permalink(18); ?>">
 				<div id="mission-image" class="button-image"></div>
 				<div class="button-text">Mission</div>
 			</a>
@@ -46,7 +46,7 @@
 				<div id="news-image" class="button-image"></div>
 				<div class="button-text">News</div>
 			</a>
-			<a id="design-button" class="nav-button" href="<?php echo get_category_link(); ?>" >
+			<a id="design-button" class="nav-button" href="<?php echo get_category_link(7); ?>" >
 				<div id="design-image" class="button-image"></div>
 				<div class="button-text">Design</div>
 			</a>

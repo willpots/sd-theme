@@ -1,16 +1,19 @@
 <?php get_header(); ?>
-
-<div id="banner">
-	<h2><?php wp_title($sep); ?></h2>
+	
+<div id="slideshow">
+	<div id="slideshow_footer">
+		<div id="slideshow_footer_bar"></div>
+		<p><i>Middlebury College is back in the Solar Decathlon!</i></p>
+	</div>
 </div>
 
 <div id="content_background">
 	<div id="container">
-		
+
 <?php get_sidebar(); ?>
 
 <div id="loop_header">
-	<h2>Recent Stories in <?php wp_title($sep); ?></h2>
+	<h2>Latest News</h2>
 </div>
 <div id="posts">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
