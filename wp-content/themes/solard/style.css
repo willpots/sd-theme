@@ -560,6 +560,9 @@ body {
 	background-color: white;
 	border-top: 1pt solid #cfcfcf;
 	border-bottom: 1pt solid #cfcfcf;
+	-moz-box-shadow:0px -3px 9px #ccc;
+	-webkit-box-shadow:0px -3px 9px #ccc;
+	box-shadow:0px -3px 9px #ccc;
 }
 #header_logo_container {
 	display: inline-block;
@@ -643,9 +646,9 @@ float: right;
 	margin-right:auto;
 	margin-top:20px;
 	margin-bottom: 30px;
-	width: 920px;
+	width: 1000px;
 	height: 400px;
-	background-image: url("img/banner.jpg");
+	background-image: url('img/banner.jpg');
 }
 #slideshow_footer{
 	width:100%;
@@ -678,22 +681,23 @@ float: right;
 }
 #loop_header h2 {
 	position: relative;
-	margin-left: 150px;
+	margin-left: 110px;
 }
 #posts {
     margin: 0 0 20px 0;
 }
 .post {
-	margin-left: 40px;
+	margin-left: 0px;
 	border-top:1px solid gray;
 	padding-top: 25px;
-	width: 610px;
+	width: 690px;
 }
 .post_author{
 	float: left;
+	width: 140px;
 }
 .post_content{
-	width: 470px;
+	width: 510px;
     margin-left:150px;
     font-size:13px;
 }
@@ -761,27 +765,71 @@ float: right;
 
 /* Pages */
 #primary{
-	margin-left: 40px;
-	border-top:1px solid gray;
+	margin-left: 0px;
 	margin-top: 71px;
-	width: 610px;
+	width: 690px;
 	margin-bottom: 40px;
+	padding-top: 1px;
+}
+#content{
+	position:relative;
 }
 #banner{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;
-	width: 920px;
-	height: 50px;
-	background-image: url("img/banner2.jpg");
+	width: 1000px;
+	height: 80px;
+	background-image: url('img/banner2.jpg');
 	background-position: 0% 59%;
 	margin-bottom: 20px;
 }
 #banner h2{
-	padding-left: 20px;
+	padding-left: 30px;
 	margin: 0;
 	position: relative;
-	top: 10px;
+	top: 25px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+/* Sponsor Logos */
+.sponsor_logo {
+	/*width: 200px;
+	height: 200px;
+	display: inline-block;*/
+}
+.sponsor_background:hover{
+	animation: sponsors .5s;
+	-moz-animation: sponsors .5s;
+	-webkit-animation: sponsors .5s;
+}
+
+/* Animations */
+@keyframes sponsors {
+	from:{background-color: rgba(50,50,50,0.5);}
+	to:{background-color: none;}
+}
+@-moz-keyframes sponsors {
+	from:{background-color: rgba(50,50,50,0.5);}
+	to:{background-color: none;}
+	}
+@-webkit-keyframes sponsors {
+	from:{background-color: rgba(50,50,50,0.5);}
+	to:{background-color: none;}
+}
+
+/* Contact Page */
+#contact_left {
+	width: 150px;
+	display: inline-block;
+}
+#contact_left p{
+	display: inherit;
+}
+#contact_right {
+	width: 540px;
+	display: inline-block;
+	margin-left: 150px;
 }
 
 
