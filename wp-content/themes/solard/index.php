@@ -10,7 +10,7 @@
 <?php get_sidebar(); ?>
 
 <div id="loop_header">
-	<h2>Recent Stories in <?php wp_title(); ?></h2>
+	<h2><?php wp_title(''); ?></h2>
 </div>
 <div id="posts">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

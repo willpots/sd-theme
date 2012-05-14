@@ -27,7 +27,7 @@
 			</a>
 		</li>
 		<li class="sm-item">
-			<a href="">
+			<a href="/contact">
 				<img src="<?php bloginfo("stylesheet_directory"); ?>/img/sm-icons/contact.png" class="sm-icon" alt="" title=""/>
 				<span class="sm-name">Contact us Online</span>
 			</a>
