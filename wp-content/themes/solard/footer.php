@@ -5,12 +5,12 @@
 		<img id="logo_midd" class="logo" src="<?php bloginfo("stylesheet_directory"); ?>/img/midd.png" />
 	</a>
 	<a href="http://www.nrel.gov">
-		<img id="logo_nrel" class="logo" src="<?php bloginfo("stylesheet_directory"); ?>/img/nrel2.png" />
+		<img id="logo_nrel" class="logo" src="<?php bloginfo("stylesheet_directory"); ?>/img/nrel.png" />
 	</a>
 	<a href="http://energy.gov/">
 		<img id="logo_doe" class="logo" src="<?php bloginfo("stylesheet_directory"); ?>/img/doe.png" />
 	</a>
-	<a href="http://www.solardecathlon.gov/"
+	<a href="http://www.solardecathlon.gov/">
 		<img id="logo_sd" class="logo" src="<?php bloginfo("stylesheet_directory"); ?>/img/sd.png" />
 	</a>
 </div><!-- #footer -->

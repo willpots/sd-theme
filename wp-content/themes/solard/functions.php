@@ -72,6 +72,7 @@ $people[] = array('name'=>'Ethan Galiette',			'team'=>'Finance',			'path'=>get_t
 $people[] = array('name'=>'Eliza Margolin',			'team'=>'Design',			'path'=>get_template_directory_uri().'/headshots/emargolin-small.png');
 $people[] = array('name'=>'Emily Roach',			'team'=>'Design',			'path'=>get_template_directory_uri().'/headshots/eroach-small.png');
 $people[] = array('name'=>'Evan Gallagher',			'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/evang-small.png');
+$people[] = array('name'=>'Jack Peisch',			'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/jpeisch-small.png');
 $people[] = array('name'=>'Jordan Collins',			'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/jcollins-small.png');
 $people[] = array('name'=>'Jillian Mock',			'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/jmock-small.png');
 $people[] = array('name'=>'Lizzie Durkin',			'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/edurkin-small.png');
@@ -80,6 +81,7 @@ $people[] = array('name'=>'Mollie Young',			'team'=>'Outreach',			'path'=>get_te
 $people[] = array('name'=>'Patrick Li',				'team'=>'Design',			'path'=>get_template_directory_uri().'/headshots/pli-small.png');
 $people[] = array('name'=>'Robbie Carpenter-Israel','team'=>'Finance',			'path'=>get_template_directory_uri().'/headshots/rcarpenterisrael-small.png');
 $people[] = array('name'=>'Rita Croce',				'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/rcroce-small.png');
+$people[] = array('name'=>'Sam Collins',			'team'=>'Construction',			'path'=>get_template_directory_uri().'/headshots/scollins-small.png');
 $people[] = array('name'=>'Sofia Silverglass',		'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/ssilverglass-small.png');
 $people[] = array('name'=>'Sean Willerford',		'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/swillerford-small.png');
 $people[] = array('name'=>'Teddy Knox',				'team'=>'Outreach',			'path'=>get_template_directory_uri().'/headshots/ejknox-small.png');
