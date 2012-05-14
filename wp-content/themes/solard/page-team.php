@@ -16,6 +16,11 @@
 
 <?php //get_sidebar(); ?>
 
+<div id="page_header">
+	<h2>Team Middlebury College</h2>
+</div>
+
+
 		<div id="primary" class="full-page">
 			<div id="team-photos">
 			<?php foreach($people as $p) { ?>

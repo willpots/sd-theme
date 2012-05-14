@@ -539,6 +539,9 @@ a {
 a:hover {
 	color: rgba(63,164,73,1);
 }
+b{
+	color: rgba(43, 144, 53, 1);
+}
 html{
 	font-family: "PT Sans", sans-serif;
 	background-color: rgba(245,241,232,1);
@@ -582,7 +585,7 @@ body {
 	padding: 20px 0;
 }
 #header {
-	width:960px;
+	width:1000px;
 	padding-top:25px;
 	margin-left:auto;
 	margin-right:auto;
@@ -723,11 +726,11 @@ float: right;
 #sidebar{
 	float: right;
 	width: 260px;
-	margin-right: 40px;
+	margin-right: 0px;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: gray;
-	margin-top: 71px;
+	margin-top: 51px;
 	padding-top: 15px;
 	padding-left: 15px;
 }
@@ -766,16 +769,14 @@ float: right;
 /* Pages */
 #primary{
 	margin-left: 0px;
-	margin-top: 71px;
+	margin-top: 20px;
 	width: 690px;
 	margin-bottom: 40px;
 	padding-top: 1px;
 }
 #primary.full-page {
 	margin-left: 0px;
-	margin-top: 71px;
 	margin-bottom: 40px;
-	padding-top: 1px;
 	width: auto;
 }
 #content{
@@ -797,6 +798,25 @@ float: right;
 	top: 25px;
 	color: white;
 	text-shadow: 1px 1px 5px black;
+}
+#page_left{
+	display: inline-block;
+	width:150px;
+	vertical-align: top;
+}
+#page_right{
+	width: 510px;
+	display: inline-block;
+}
+#page_row{
+	width: inherit;
+	display: block;
+}
+#content_header{
+	padding-left: 150px;
+	border-bottom: 1px solid gray;
+	width: 510px;
+	height: 
 }
 /* Sponsor Logos */
 .sponsor_logo {
@@ -823,21 +843,6 @@ float: right;
 	from:{background-color: rgba(50,50,50,0.5);}
 	to:{background-color: none;}
 }
-
-/* Contact Page */
-#contact_left {
-	width: 150px;
-	display: inline-block;
-}
-#contact_left p{
-	display: inherit;
-}
-#contact_right {
-	width: 540px;
-	display: inline-block;
-	margin-left: 150px;
-}
-
 
 /* Team Photo */
 #team-photos {
@@ -888,6 +893,40 @@ float: right;
 .team-member:hover .team-text {
 	opacity: 1;
 }
+
+/* Design Page */
+#design_header {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Contact Page */
+textarea {
+	width: 510px;
+	height: 120px;
+}
+button {
+	width: 80px;
+	height: 30px;
+	color: rgba(43, 144, 53, 1);
+	position:relative;
+	left: 436px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
