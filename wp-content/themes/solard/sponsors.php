@@ -16,15 +16,9 @@ Template Name: Sponsors
 <?php get_sidebar(); ?>
 
 		<div id="primary">
-			<h2>Corporate Sponsors</h2>
+			<h2>Sponsors</h2>
 			<div id="content" role="main">
-
-				<?php $attachment_id=32; //attachment ID
-				$image_attributes = wp_get_attachment_image_src($attachment_id); ?>
-				<img class="sponsor_logo" src="<?php echo $image_attributes[0]; ?>" alt="overbrook">
-				<img class="sponsor_logo" src="<?php echo get_attached_file(31); ?>">
-				<img class="sponsor_logo" src="<?php echo get_attached_file(30); ?>">
-
+				<p>Interesting in sponsoring Team Middlebury? <a href="/contact">Contact us for more information.</a></p>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
