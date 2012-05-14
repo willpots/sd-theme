@@ -891,10 +891,39 @@ float: right;
 
 
 
+/* Sidebar Stuff */
+#sm-list {
+	border-top: 1pt solid rgb(213,213,213);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.sm-item {
+	margin: 0;
+	padding: 0;
+	display: block;
+	border-bottom: 1pt solid rgb(213,213,213);
+	padding: 3px;
+}
+.sm-icon {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+}
+.sm-name {
+	display: inline-block;
+	vertical-align: middle;
+}
 
-
-
-
+.sm-item a {
+	text-decoration: none;
+	color: black;
+}
+.sm-item:hover {
+	background: #ddd;
+}
 
 
 
