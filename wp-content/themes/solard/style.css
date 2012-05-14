@@ -582,7 +582,7 @@ body {
 	padding: 20px 0;
 }
 #header {
-	width:960px;
+	width:1000px;
 	padding-top:25px;
 	margin-left:auto;
 	margin-right:auto;
@@ -773,9 +773,7 @@ float: right;
 }
 #primary.full-page {
 	margin-left: 0px;
-	margin-top: 71px;
 	margin-bottom: 40px;
-	padding-top: 1px;
 	width: auto;
 }
 #content{
@@ -798,6 +796,19 @@ float: right;
 	top: 25px;
 	color: white;
 	text-shadow: 1px 1px 5px black;
+}
+#page_left{
+	display: inline-block;
+	width:150px;
+	vertical-align: top;
+}
+#page_right{
+	width: 510px;
+	display: inline-block;
+}
+#page_row{
+	width: inherit;
+	display: block;
 }
 /* Sponsor Logos */
 .sponsor_logo {
@@ -838,7 +849,6 @@ float: right;
 	display: inline-block;
 	margin-left: 150px;
 }
-
 
 /* Team Photo */
 #team-photos {
