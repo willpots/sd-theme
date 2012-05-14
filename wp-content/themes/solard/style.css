@@ -913,7 +913,42 @@ float: right;
 #design_header {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	width: 400px;
+	text-align: center;
+}
+#design_links {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+img.left{
+	float: left;
+}
+img.right{
+	float: right;
+}
+img.middle{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+img.inline{
+	display: inline-block;
+}
+#design_left{
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+#design_right{
+	width: 675px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 /* Contact Page */

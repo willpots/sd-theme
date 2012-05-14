@@ -1,6 +1,6 @@
 <?php 
 /*
- * Template Name: Design Page
+ * Template Name: Materials Page
  */
 ?>
 
@@ -19,8 +19,8 @@
 </div>
 
 <div id="design_links"> <!-- Links need to be updated before final push -->
-	<a href="/design"></a><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_design_color.png" class="left"></a>
-	<a href="/materials"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_mats_BW.png" class="right"></a>
+	<a href="/design"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_design_BW.png" class="left"></a>
+	<a href="/materials"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_Mats_Color.png" class="right"></a>
 	<a href="/engineering"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_engineering_BW.png" class="middle"></a>
 </div>
 

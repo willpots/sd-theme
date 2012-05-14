@@ -3,7 +3,7 @@
 <div id="slideshow">
 	<div id="slideshow_footer">
 		<div id="slideshow_footer_bar"></div>
-		<p><i>Middlebury College is back in the Solar Decathlon!</i></p>
+		<p><i>Middlebury College is back in the U.S. Department of Energy Solar Decathlon!</i></p>
 	</div>
 </div>
 
