@@ -33,5 +33,4 @@
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
 </div>
-<div class="clear"></div>
 <?php get_footer(); ?>
