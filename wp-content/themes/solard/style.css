@@ -730,7 +730,7 @@ float: right;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: gray;
-	margin-top: 71px;
+	margin-top: 51px;
 	padding-top: 15px;
 	padding-left: 15px;
 }
@@ -769,7 +769,7 @@ float: right;
 /* Pages */
 #primary{
 	margin-left: 0px;
-	margin-top: 71px;
+	margin-top: 20px;
 	width: 690px;
 	margin-bottom: 40px;
 	padding-top: 1px;
@@ -812,8 +812,11 @@ float: right;
 	width: inherit;
 	display: block;
 }
-#page_header{
-	margin-left: 150px;
+#content_header{
+	padding-left: 150px;
+	border-bottom: 1px solid gray;
+	width: 510px;
+	height: 
 }
 /* Sponsor Logos */
 .sponsor_logo {
@@ -839,20 +842,6 @@ float: right;
 @-webkit-keyframes sponsors {
 	from:{background-color: rgba(50,50,50,0.5);}
 	to:{background-color: none;}
-}
-
-/* Contact Page */
-#contact_left {
-	width: 150px;
-	display: inline-block;
-}
-#contact_left p{
-	display: inherit;
-}
-#contact_right {
-	width: 540px;
-	display: inline-block;
-	margin-left: 150px;
 }
 
 /* Team Photo */
@@ -912,6 +901,18 @@ float: right;
 	display: block;
 }
 
+/* Contact Page */
+textarea {
+	width: 510px;
+	height: 120px;
+}
+button {
+	width: 80px;
+	height: 30px;
+	color: rgba(43, 144, 53, 1);
+	position:relative;
+	left: 436px;
+}
 
 
 
