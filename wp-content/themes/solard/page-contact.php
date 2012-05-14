@@ -28,43 +28,11 @@ Template Name: Contact
 			<p>Thanks for your interest in contacting Team Middlebury!  Please use the form below to place an inquiry, or contact us the old fashioned way.  We do get a lot of mail, so it may take a while for us to reply to your message.  Please be patient</p>
 		</div>
 	</div>
-	<form name="" action="" method="get"> <!-- This needs to be filled out for the form to workz -->
-	<div id="page_row">
-		<div id="page_left">
-			<p>Your Name:</p>
-		</div>
-		<div id="page_right">
-			<p><input type="text" name="name" /></p>
-		</div>
-	</div>
-	<div id="page_row">
-		<div id="page_left">
-			<p>Your Email:</p>
-		</div>
-		<div id="page_right">
-			<p><input type="text"name="email" /></p>
-		</div>
-	</div>
-	<div id="page_row">
-		<div id="page_left">
-			<p>Attention:</p>
-		</div>
-		<div id="page_right">
-			<p><input type="text" name="attention" /></p>
-		</div>
-	</div>
-	<div id="page_row">
-		<div id="page_left">
-			<p>Your Message:</p>
-		</div>
-		<div id="page_right">
-			<p><textarea type="text" name="messasge"></textarea></p>
-			<br/>
-			<button class="submit" type="submit" value="submit">Send!</button>
-		</div>
-	</div>
-	</form>
-	
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php the_content(); ?>
+
+				<?php endwhile; // end of the loop. ?>
 	<div id="content_header">
 	<h2>Alternative Addresses</h2>
 	</div>
