@@ -16,7 +16,7 @@
 
 <?php get_sidebar(); ?>
 
-<div id="loop_header">
+<div id="page_header">
 	<h2>What Is the Solar Decathlon?</h2>
 </div>
 

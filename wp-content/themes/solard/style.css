@@ -723,7 +723,7 @@ float: right;
 #sidebar{
 	float: right;
 	width: 260px;
-	margin-right: 40px;
+	margin-right: 0px;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: gray;
@@ -809,6 +809,9 @@ float: right;
 #page_row{
 	width: inherit;
 	display: block;
+}
+#page_header{
+	margin-left: 150px;
 }
 /* Sponsor Logos */
 .sponsor_logo {
