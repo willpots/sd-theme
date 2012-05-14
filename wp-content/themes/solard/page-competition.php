@@ -16,11 +16,7 @@
 
 <?php get_sidebar(); ?>
 
-<<<<<<< HEAD
 <div id="page_header">
-=======
-<div id="loop_header">
->>>>>>> b2ae390d8ee4f3b312612e2c293e3543ced571e3
 	<h2>What Is the Solar Decathlon?</h2>
 </div>
 

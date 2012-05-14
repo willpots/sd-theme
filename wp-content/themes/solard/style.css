@@ -539,6 +539,9 @@ a {
 a:hover {
 	color: rgba(63,164,73,1);
 }
+b{
+	color: rgba(43, 144, 53, 1);
+}
 html{
 	font-family: "PT Sans", sans-serif;
 	background-color: rgba(245,241,232,1);
@@ -901,6 +904,28 @@ float: right;
 .team-member:hover .team-text {
 	opacity: 1;
 }
+
+/* Design Page */
+#design_header {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
