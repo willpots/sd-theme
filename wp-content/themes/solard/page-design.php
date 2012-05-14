@@ -1,5 +1,11 @@
 <?php 
 /*
+ * Template Name: Design Page
+ */
+?>
+
+<?php 
+/*
  * Template Name: Competition Page
  */
 ?>
@@ -8,19 +14,16 @@
 <?php get_header(); ?>
 
 <div id="banner">
-	<img src="<?php getHeaderImage(get_the_title()); ?>" alt="<?php echo get_the_title(); ?>" title="<?php echo get_the_title(); ?>" />
+	<h2><i><?php wp_title($sep); ?></i></h2>
 </div>
 
 <div id="content_background">
 	<div id="container">
 
+
 <?php get_sidebar(); ?>
 
-<<<<<<< HEAD
 <div id="page_header">
-=======
-<div id="loop_header">
->>>>>>> b2ae390d8ee4f3b312612e2c293e3543ced571e3
 	<h2>What Is the Solar Decathlon?</h2>
 </div>
 

@@ -779,15 +779,14 @@ float: right;
 #content{
 	position:relative;
 }
-#banner{
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	width: 1000px;
-	height: 80px;
-	background-image: url('img/banner2.jpg');
-	background-position: 0% 59%;
-	margin-bottom: 20px;
+#banner {
+	margin:20px auto;
+	width: 903px;
+	height: 66px;
+	padding: 10px;
+	text-align: center;
+	background: white;
+	display: block;
 }
 #banner h2{
 	padding-left: 30px;
