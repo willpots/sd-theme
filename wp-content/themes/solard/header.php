@@ -30,27 +30,27 @@
 				<div id="sr-image" class="button-image" ></div>
 				<div class="button-text">Our 2011 Home</div>
 			</a>-->
-			<a id="sponsors-button" class="nav-button" href="<?php echo get_permalink(22); ?>" >
+			<a id="sponsors-button" class="nav-button" href="/sponsors" >
 				<div id="sponsors-image" class="button-image"></div>
 				<div class="button-text">Sponsors</div>
 			</a>
-			<a id="competition-button" class="nav-button" href="<?php echo get_permalink(26); ?>">
+			<a id="competition-button" class="nav-button" href="/competition">
 				<div id="competition-image" class="button-image"></div>
 				<div class="button-text">Competition</div>
 			</a>
-			<a id="mission-button" class="nav-button" href="<?php echo get_permalink(18); ?>">
+			<a id="mission-button" class="nav-button" href="/mission">
 				<div id="mission-image" class="button-image"></div>
 				<div class="button-text">Mission</div>
 			</a>
-			<a id="news-button" class="nav-button" href="<?php echo get_category_link(3); ?>" >
+			<a id="news-button" class="nav-button" href="/news" >
 				<div id="news-image" class="button-image"></div>
 				<div class="button-text">News</div>
 			</a>
-			<a id="design-button" class="nav-button" href="<?php echo get_category_link(7); ?>" >
+			<a id="design-button" class="nav-button" href="/design" >
 				<div id="design-image" class="button-image"></div>
 				<div class="button-text">Design</div>
 			</a>
-			<a id="team-button" class="nav-button" href="<?php echo get_permalink(5); ?>">
+			<a id="team-button" class="nav-button" href="/team">
 				<div id="team-image" class="button-image"></div>
 				<div class="button-text">Team</div>
 			</a>

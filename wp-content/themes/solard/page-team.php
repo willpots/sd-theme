@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <div id="banner">
-	<h2><i><?php wp_title($sep); ?></i></h2>
+	<img src="<?php getHeaderImage(get_the_title()); ?>" alt="<?php echo get_the_title(); ?>" title="<?php echo get_the_title(); ?>" />
 </div>
 
 <div id="content_background">
