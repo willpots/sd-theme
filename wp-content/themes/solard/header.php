@@ -34,14 +34,6 @@
 				<div id="sponsors-image" class="button-image"></div>
 				<div class="button-text">Sponsors</div>
 			</a>
-			<a id="competition-button" class="nav-button" href="/competition">
-				<div id="competition-image" class="button-image"></div>
-				<div class="button-text">Competition</div>
-			</a>
-			<a id="mission-button" class="nav-button" href="/mission">
-				<div id="mission-image" class="button-image"></div>
-				<div class="button-text">Mission</div>
-			</a>
 			<a id="news-button" class="nav-button" href="/news" >
 				<div id="news-image" class="button-image"></div>
 				<div class="button-text">News</div>
@@ -53,6 +45,14 @@
 			<a id="team-button" class="nav-button" href="/team">
 				<div id="team-image" class="button-image"></div>
 				<div class="button-text">Team</div>
+			</a>
+			<a id="mission-button" class="nav-button" href="/mission">
+				<div id="mission-image" class="button-image"></div>
+				<div class="button-text">Our Mission</div>
+			</a>
+			<a id="competition-button" class="nav-button" href="/competition">
+				<div id="competition-image" class="button-image"></div>
+				<div class="button-text">Competition</div>
 			</a>
 		</div><!-- main_nav -->
 	</div><!-- header -->

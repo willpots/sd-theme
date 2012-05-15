@@ -26,7 +26,6 @@
 			<div class="entry">
 				<?php the_content(); ?>
 			</div>
-			<p class="postmetadata">Posted in <?php the_category(', '); ?></p>
 		</div>
 	</div>
 <?php endwhile; else: ?>

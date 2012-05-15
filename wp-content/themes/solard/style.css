@@ -553,7 +553,7 @@ body {
 	outline: none;
 }
 #container {
-	width: 1000px;
+	width: 923px;
 	background-color: white;
 	margin:0 auto;
 }
@@ -562,9 +562,6 @@ body {
 	background-color: white;
 	border-top: 1pt solid #cfcfcf;
 	border-bottom: 1pt solid #cfcfcf;
-	-moz-box-shadow:0px -3px 9px #ccc;
-	-webkit-box-shadow:0px -3px 9px #ccc;
-	box-shadow:0px -3px 9px #ccc;
 	clear: both;
 }
 #header_logo_container {
@@ -585,7 +582,7 @@ body {
 	padding: 20px 0;
 }
 #header {
-	width:1000px;
+	width:923px;
 	padding-top:25px;
 	margin-left:auto;
 	margin-right:auto;
@@ -680,11 +677,10 @@ float: right;
 
 /* DA LOOP */
 #loop_header {
-	margin-left: 40px;
+	margin-left: 120px;
 }
 #loop_header h2 {
 	position: relative;
-	margin-left: 110px;
 }
 #posts {
     margin: 0 0 20px 0;
@@ -693,15 +689,15 @@ float: right;
 	margin-left: 0px;
 	border-top:1px solid gray;
 	padding-top: 25px;
-	width: 690px;
+	width: 630px;
 }
 .post_author{
 	float: left;
-	width: 140px;
+	width: 120px;
 }
 .post_content{
-	width: 510px;
-    margin-left:150px;
+	width: 500px;
+    margin-left:120px;
     font-size:13px;
 }
 .post_title {
@@ -830,24 +826,40 @@ float: right;
 	-webkit-animation: sponsors .5s;
 }
 
-/* Animations */
-@keyframes sponsors {
-	from:{background-color: rgba(50,50,50,0.5);}
-	to:{background-color: none;}
-}
-@-moz-keyframes sponsors {
-	from:{background-color: rgba(50,50,50,0.5);}
-	to:{background-color: none;}
-	}
-@-webkit-keyframes sponsors {
-	from:{background-color: rgba(50,50,50,0.5);}
-	to:{background-color: none;}
-}
-
 /* Team Photo */
 #team-photos {
-
+	width: auto;
 }
+#team-description {
+	float: right;
+	display: none;
+}
+#team-description.bio-showing {
+	float: right;
+	display: block;
+	width: 280px;
+	padding:0 10px;
+}
+#team-photos.bio-showing {
+	width:700px;
+}
+#team-description-photo {
+	float: right;
+}
+#team-description-name {
+	border-top: 1pt solid #aaa;
+	font-weight: bold;
+	text-align: right;
+}
+#team-description-team {
+	text-align: right;
+	font-size: 12px;
+	font-style: italic;
+}
+#team-description-description {
+	font-size: 12px;
+}
+
 .team-member {
 	display: block;
 	float: left;
@@ -863,6 +875,9 @@ float: right;
 	margin: 0;
 	padding: 0;
 }
+.team-description {
+	display: none;
+}
 .team-text {
 	position: absolute;
 	z-index: 10;
@@ -873,10 +888,10 @@ float: right;
 	width: 90px;
 	height: 90px;
 	text-align: center;
-	transition: opacity .15s ease-in;
-	-webkit-transition: opacity .15s ease-in;
-	-moz-transition: opacity .15s ease-in;
-	-o-transition: opacity .15s ease-in;
+	transition: all .15s ease-in;
+	-webkit-transition: all .15s ease-in;
+	-moz-transition: all .15s ease-in;
+	-o-transition: all .15s ease-in;
 }
 .team-name {
 	display: block;

@@ -22,22 +22,29 @@
 
 
 		<div id="primary" class="full-page">
+			<div id="team-description">
+					<div id="team-description-photo"></div>
+					<div class="clear"></div>
+					<div id="team-description-name"></div>
+				<div id="team-description-team"></div>
+				<div id="team-description-description"></div>
+			</div>
 			<div id="team-photos">
 			<?php foreach($people as $p) { ?>
-			<a class="team-member">
-				<img class="team-photo" src="<?php echo $p['path']; ?>" alt="" />
+			<a class="team-member"><img class="team-photo" src="<?php echo $p['path']; ?>" alt="" />
 				<div class="team-text">
 					<span class="team-name"><?php echo $p['name']; ?></span>
 					<span class="team-subteam"><?php echo $p['team']; ?></span>
+					<span class="team-description"><?php echo stripslashes($p['description']); ?></span>
 				</div>
 			</a>
 			<?php } ?>
 			<?php foreach($faculty as $p) { ?>
-			<a class="team-member">
-				<img class="team-photo" src="<?php echo $p['path']; ?>" alt="" />
+			<a class="team-member"><img class="team-photo" src="<?php echo $p['path']; ?>" alt="" />
 				<div class="team-text">
 					<span class="team-name"><?php echo $p['name']; ?></span>
 					<span class="team-subteam"><?php echo $p['role']; ?></span>
+					<span class="team-description"><?php echo stripslashes($p['description']); ?></span>
 				</div>
 			</a>
 			<?php } ?>
