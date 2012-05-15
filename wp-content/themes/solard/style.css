@@ -646,7 +646,7 @@ float: right;
 	margin-right:auto;
 	margin-top:20px;
 	margin-bottom: 30px;
-	width: 1000px;
+	width: 923px;
 	height: 400px;
 	background-image: url('img/banner.jpg');
 }
@@ -689,7 +689,7 @@ float: right;
 	margin-left: 0px;
 	border-top:1px solid gray;
 	padding-top: 25px;
-	width: 630px;
+	width: 708px;
 }
 .post_author{
 	float: left;
@@ -721,14 +721,14 @@ float: right;
 /* The Sidebar */
 #sidebar{
 	float: right;
-	width: 260px;
+	width: 200px;
 	margin-right: 0px;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: gray;
 	margin-top: 72px;
 	padding-top: 15px;
-	padding-left: 15px;
+	margin-left: 15px;
 }
 
 /* The Footer */
@@ -766,7 +766,7 @@ float: right;
 #primary{
 	margin-left: 0px;
 	margin-top: 20px;
-	width: 690px;
+	width: 708px;
 	margin-bottom: 40px;
 	padding-top: 1px;
 }

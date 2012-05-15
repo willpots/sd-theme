@@ -20,7 +20,7 @@
 	<h2>What Is the Solar Decathlon?</h2>
 </div>
 
-<div id="primary" class="full-page">
+<div id="primary">
 	<div id="page_row">
 		<div id="page_left">
 			<p>The <b>Concept</b></p>
