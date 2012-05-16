@@ -562,6 +562,9 @@ body {
 	font-family: "PT Sans", sans-serif;
 	background: url('img/body-background.png') repeat-x;
 }
+body.fp-body {
+	background: url('img/fp-background.png') repeat-x;
+}
 *:focus {
 	outline: none;
 }
@@ -670,9 +673,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-right:auto;
 	margin-top:20px;
 	margin-bottom: 30px;
-	width: 923px;
+	width: 903px;
+	padding: 10px;
 	height: 400px;
+	border: 1pt solid rgb(168, 159, 143); 
+	background-color: white;
 	background-image: url('img/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	box-shadow: 3px 3px 4px #333;
 }
 #slideshow_footer{
 	width:100%;

@@ -9,8 +9,8 @@
 	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"> 	
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>" media="all" />
 	
-	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/libs/jquery.js" /></script>
-	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/js/script.js" /></script>
+	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/libs/jquery.js" ></script>
+	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory"); ?>/js/script.js" ></script>
 	<script type="text/javascript">
 	
 	</script>
