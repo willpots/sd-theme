@@ -16,7 +16,7 @@
 	</script>
 	<?php wp_head(); ?> 
 </head>
-<body>
+<body <?php if(is_front_page()){ echo 'class="fp-body"';} ?>>
 	<div id="header">
 		<a id="header_logo_container" href="/">
 			<img src="<?php bloginfo("stylesheet_directory"); ?>/img/logo.png" id="header_logo">
