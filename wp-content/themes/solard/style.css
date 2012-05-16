@@ -829,7 +829,7 @@ body {
 }
 #banner {
 	margin:20px auto;
-	width: 1105px;
+	width: 1265px;
 	height: 104px;
 	padding: 10px 0 0 0;
 	text-align: center;
@@ -973,19 +973,49 @@ body {
 	margin-bottom: 30px;
 }
 #design_link{
-	height: 100px;
-	position: relative
-}
-#design_link.design{
 	float: left;
+	height: 100px;
+	position: relative;
+	background: url(/img/design)
 }
-#design_link.materials{
+#materials_link{
 	float: right;
+	height: 100px;
+	position: relative;
 }
-#design_link.engineering{
+#engineering_link{
 	display:block;
 	margin-right: auto;
 	margin-left: auto;
+	height: 100px;
+	position: relative;
+}
+#design_link.design{
+	
+}
+#materials_link.design{
+	
+}
+#engineering_link.design{
+	
+}
+#design_link.engineering{
+	
+}
+#materials_link.engineering{
+	
+}
+#engineering_link.engineering{
+	
+}
+#design_link.materials{
+	
+}
+#materials_link.materials{
+	
+}
+#engineering_link.materials{
+	
 }
 #design_links.inline{
 	display: inline-block;

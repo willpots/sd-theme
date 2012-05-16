@@ -20,8 +20,8 @@
 
 <div id="design_links"> <!-- Links need to be updated before final push -->
 	<a href="/design"></a><div id="design_link" class="design"></div></a>
-	<a href="/materials"><div id="design_link" class="materials"></div></a>
-	<a href="/engineering"><div id="design_link" class="engineering"></div></a>
+	<a href="/materials"><div id="materials_link" class="design"></div></a>
+	<a href="/engineering"><div id="engineering_link" class="design"></div></a>
 </div>
 
 <div id="primary" class="full-page">
