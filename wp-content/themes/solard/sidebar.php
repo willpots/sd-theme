@@ -4,11 +4,6 @@
 	<h4>Search</h4>
 	<?php get_search_form(); ?>
 
-	<!-- Search Function Goes Here -->
-	<h4>Upcoming Events</h4>
-	<!-- How do we want to do this?  Hard, calendar integration, or what? -->
-	<!-- Twitter integration goes here -->
-	<!-- Facebook, Twitter, Youtube, RSS Links -->
 	<ul id="sm-list" class="sidebar-list">
 		<li class="sm-item">
 			<a href="https://www.facebook.com/middsd13">

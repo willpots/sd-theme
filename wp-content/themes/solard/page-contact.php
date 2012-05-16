@@ -39,18 +39,10 @@ Template Name: Contact
 	
 	<div id="page_row">
 		<div id="page_left">
-			<p>Contact <b>Outreach:</b></p>
+			<p>Contact <b>Us:</b></p>
 		</div>
 		<div id="page_right">
-			<p>sd13outreach@middlebury.edu</p>
-		</div>
-	</div>
-	<div id="page_row">
-		<div id="page_left">
-			<p>Contact <b>Design:</b></p>
-		</div>
-		<div id="page_right">
-			<p>sd13design@middlebury.edu</p>
+			<p>middsd@middlebury.edu</p>
 		</div>
 	</div><div id="page_row">
 		<div id="page_left">

@@ -1125,6 +1125,10 @@ button {
 .sm-item:hover {
 	background: #ddd;
 }
+#sidebar ul{
+	display: block;
+	margin-top: 20px;
+}
 
 
 
