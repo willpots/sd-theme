@@ -27,34 +27,34 @@ function getHeaderImage($pagename,$print=true) {
 	$pagename=strtolower($pagename);
 	switch($pagename) {
 		case "team":
-			$headerImage = get_template_directory_uri()."/img/headers/header_team.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_team.png";
 			break;
 		case "competition":
-			$headerImage = get_template_directory_uri()."/img/headers/header_competition.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_competition.png";
 			break;
 		case "mission":
-			$headerImage = get_template_directory_uri()."/img/headers/header_mission.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_mission.png";
 			break;
 		case "contact":
-			$headerImage = get_template_directory_uri()."/img/headers/header_contact.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_contact.png";
 			break;
 		case "design":
-			$headerImage = get_template_directory_uri()."/img/headers/header_design.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_design.png";
 			break;
 		case "materials":
-			$headerImage = get_template_directory_uri()."/img/headers/header_design.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_design.png";
 			break;
 		case "engineering":
-			$headerImage = get_template_directory_uri()."/img/headers/header_design.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_design.png";
 			break;
 		case "home":
-			$headerImage = get_template_directory_uri()."/img/headers/header_mission.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_mission.png";
 			break;
 		case "news":
-			$headerImage = get_template_directory_uri()."/img/headers/header_news.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_news.png";
 			break;
 		case "sponsors":
-			$headerImage = get_template_directory_uri()."/img/headers/header_sponsors.png";
+			$headerImage = get_template_directory_uri()."/img/new_headers/header_sponsors.png";
 			break;
 	}
 	if($print) {

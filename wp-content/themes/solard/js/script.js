@@ -26,4 +26,11 @@ function initListeners() {
 		var name=$(this).children('.team-text').children('.team-description').html();
 		$('#team-description-description').html(name);
 	});
+	$('#s').keypress(function(e){
+		//console.log(e);
+		//$('#searchform').submit();
+	
+	
+	
+	});
 }

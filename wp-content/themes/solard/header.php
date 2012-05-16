@@ -19,7 +19,7 @@
 <body>
 	<div id="header">
 		<a id="header_logo_container" href="/">
-<!-- 			<img src="<?php bloginfo("stylesheet_directory"); ?>" id="header_logo"> -->
+			<img src="<?php bloginfo("stylesheet_directory"); ?>/img/logo.png" id="header_logo">
 		</a>
 		<div id="main_nav">
 			<a id="donate-button" target="_blank" class="nav-button" href="http://go.middlebury.edu/givesd2013">

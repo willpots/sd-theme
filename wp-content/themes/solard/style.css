@@ -578,9 +578,9 @@ body {
 	border-bottom: 1pt solid rgb(168,159,143);
 	clear: both;
 }
+
 #header_logo_container {
 	display: inline-block;
-	background: url("img/newlogo.png") no-repeat;
 	width:298px;
 	height: 101px;
 }
@@ -603,13 +603,14 @@ body {
 	margin-bottom: 20px;
 }
 #main_nav {
-float: right;
+	float: right;
 }
 .nav-button {
 	float: right;
-	width: 80px;
 	height: 100px;
-	padding: 10px 0;
+	min-width: 70px;
+	padding: 10px 4px;
+	background-position: center center;
 	text-align: center;
 	color: black;
 	text-decoration: none;
@@ -765,7 +766,15 @@ float: right;
 #sidebar h4{
 	margin-bottom: 5px;
 }
-
+#s {
+	margin: 4px 0;
+	box-shadow: 0;
+	border: 1pt solid hsl(38, 13%, 61%);
+	padding: 3px;
+	font-family: "PT Sans", sans-serif;
+	font-size: 13px;
+	font-style: italic;
+}
 /* The Footer */
 #footer{
 	width: 923px;
@@ -820,11 +829,10 @@ float: right;
 }
 #banner {
 	margin:20px auto;
-	width: 903px;
+	width: 1265px;
 	height: 66px;
 	padding: 10px;
 	text-align: center;
-	background: white;
 	display: block;
 }
 #banner h2{
