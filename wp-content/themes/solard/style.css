@@ -984,20 +984,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #design_link{
 	float: left;
 	height: 100px;
+	width: 290px;
 	position: relative;
-	background: url(/img/design)
+	background-image: url('/img/design/design.png');
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 #materials_link{
 	float: right;
 	height: 100px;
+	width: 290px;
 	position: relative;
+	background-image: url('/img/design/materials.png');
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 #engineering_link{
 	display:block;
 	margin-right: auto;
 	margin-left: auto;
 	height: 100px;
+	width: 290px;
 	position: relative;
+	background-image: url('/img/design/engineering.png');
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 #design_link.design{
 	
