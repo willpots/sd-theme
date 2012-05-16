@@ -17,7 +17,9 @@
 	<h2>Latest News</h2>
 </div>
 <div id="posts">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php $posts_array = get_posts( array('numberposts' => 3) ); ?> 
+
+<?php foreach( $posts_array as $post ) : setup_postdata($post); ?>
 	<div class="post">
 		<div class="post_author">
 			<small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
@@ -25,12 +27,10 @@
 		<div class="post_content">
 			<h2 class="post_title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 			<div class="entry">
-				<?php the_content(); ?>
+				<?php the_excerpt(); ?>
 			</div>
 		</div>
 	</div>
-<?php endwhile; else: ?>
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-<?php endif; ?>
+<?php endforeach; ?>
 </div>
 <?php get_footer(); ?>

@@ -829,9 +829,9 @@ body {
 }
 #banner {
 	margin:20px auto;
-	width: 1265px;
-	height: 66px;
-	padding: 10px;
+	width: 1105px;
+	height: 104px;
+	padding: 10px 10px 0 10px;
 	text-align: center;
 	display: block;
 }
