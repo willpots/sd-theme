@@ -530,6 +530,14 @@ Colors:
 	gray = rgba(229,229,229,0);
 	green = rgba(43,144,53,0);
 */
+.alignright {
+	float: right;
+	padding: 5px 0 5px 5px;
+}
+.alignleft {
+	float: left;
+	padding: 5px 5px 5px 0;
+}
 .clear {
     clear:both;
 }
@@ -566,8 +574,8 @@ body {
 #content_background {
 	width: 100%;
 	background-color: white;
-	border-top: 1pt solid #cfcfcf;
-	border-bottom: 1pt solid #cfcfcf;
+	border-top: 1pt solid rgb(168,159,143);
+	border-bottom: 1pt solid rgb(168,159,143);
 	clear: both;
 }
 #header_logo_container {
@@ -760,12 +768,18 @@ float: right;
 
 /* The Footer */
 #footer{
-	margin-top:30px;
-	padding-bottom: 20px;
-	width: 1000px;
-	clear: right;
-	margin-left:auto;
-	margin-right: auto;
+	width: 923px;
+	margin: 0 auto;
+}
+#footer a {
+	margin-top:-2px;
+	display: inline-block;
+	padding: 20px;
+}
+#footer a:hover {
+	background-image:url('img/arrow.png');	
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 #footer_line{
 	height: 0px;
@@ -773,24 +787,19 @@ float: right;
 	border-top:1pt solid white;
 }
 #logo_midd{
-	width: 200px;
 	float: left;
-	margin-right: 220px;
-	margin-left: 40px;
+	padding: 15px 10px 10px 10px;
 }
 #logo_nrel{
-	width: 100px;
+	float: right;
 }
 #logo_doe{
-	width: 100px;
+	float: right;
 }
 #logo_sd{
-	width: 200px;
+	float: right;
 }
 .logo {
-	vertical-align: middle;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 /* Pages */

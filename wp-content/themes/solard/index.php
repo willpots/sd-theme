@@ -26,7 +26,9 @@
 			<p class="postmetadata">Posted in <?php the_category(', '); ?></p>
 		</div>
 	</div>
-<?php endwhile; else: ?>
+<?php endwhile; ?>
+<div class="navigation"><p><?php posts_nav_link(); ?></p></div>
+<?php else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
 </div>
