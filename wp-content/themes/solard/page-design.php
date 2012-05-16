@@ -19,13 +19,13 @@
 </div>
 
 <div id="design_links"> <!-- Links need to be updated before final push -->
-	<a href="/design"></a><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_design_color.png" class="left"></a>
-	<a href="/materials"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_mats_BW.png" class="right"></a>
-	<a href="/engineering"><img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Header_engineering_BW.png" class="middle"></a>
+	<a href="/design"></a><div id="design_link" class="design"></div></a>
+	<a href="/materials"><div id="design_link" class="materials"></div></a>
+	<a href="/engineering"><div id="design_link" class="engineering"></div></a>
 </div>
 
 <div id="primary" class="full-page">
-	<img src="http://www.test.middsd.com/wp-content/themes/solard/img/design/Design_Design%20Picture.png" id="design_left">
+	<img src="<?php bloginfo("stylesheet_directory"); ?>/img/design/Design_Design%20Picture.png" id="design_left">
 	<div id="design_right">
 		<?php while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>

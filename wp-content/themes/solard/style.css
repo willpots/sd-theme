@@ -972,18 +972,22 @@ body {
 	padding-bottom: 15px;
 	margin-bottom: 30px;
 }
-img.left{
+#design_link{
+	height: 100px;
+	position: relative
+}
+#design_link.design{
 	float: left;
 }
-img.right{
+#design_link.materials{
 	float: right;
 }
-img.middle{
+#design_link.engineering{
 	display:block;
 	margin-right: auto;
 	margin-left: auto;
 }
-img.inline{
+#design_links.inline{
 	display: inline-block;
 }
 #design_left{
