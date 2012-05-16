@@ -831,7 +831,7 @@ body {
 	margin:20px auto;
 	width: 1105px;
 	height: 104px;
-	padding: 10px 10px 0 10px;
+	padding: 10px 0 0 0;
 	text-align: center;
 	display: block;
 }
