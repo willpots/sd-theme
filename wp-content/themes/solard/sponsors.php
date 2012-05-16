@@ -16,9 +16,18 @@ Template Name: Sponsors
 <?php get_sidebar(); ?>
 
 		<div id="primary">
+			<p>Interesting in sponsoring Team Middlebury? <a href="/contact">Contact us for more information.</a></p>
+			
 			<h2>Sponsors</h2>
 			<div id="content" role="main">
-				<p>Interesting in sponsoring Team Middlebury? <a href="/contact">Contact us for more information.</a></p>
+			<div id="sponsors">
+			<?php foreach($sponsors as $s) { ?>
+			<a class="sponsor" href="<?php echo $s['url']; ?>"><?php echo $s['name']; ?></a>
+			<?php } ?>
+
+			<div class="clear"></div>
+			</div>
+
 			</div><!-- #content -->
 		</div><!-- #primary -->
 

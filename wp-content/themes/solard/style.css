@@ -917,7 +917,7 @@ body.fp-body {
 	padding:0 10px;
 }
 #team-photos.bio-showing {
-	width:700px;
+	width:690px;
 }
 #team-description-photo {
 	float: right;
@@ -984,6 +984,27 @@ body.fp-body {
 .team-member:hover .team-text {
 	opacity: 1;
 }
+
+#sponsors {
+	width: auto;
+}
+
+.sponsor {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: rgba(0,0,0,.7);
+	padding: 20px;
+	text-align: center;
+}
+a.sponsor:link,
+a.sponsor:visited {
+	color: white;
+	text-decoration: none;
+}
+
 
 /* Design Page */
 #design_header {

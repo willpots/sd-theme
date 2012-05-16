@@ -68,6 +68,10 @@ function getHeaderImage($pagename,$print=true) {
  *
  */
 $people = array();
+$people[] = array(	'name'=>'Alex Cort',		
+					'team'=>'Project Coordinator',			
+					'path'=>get_template_directory_uri().'/headshots/acort-small.png', 		
+					'description'=>"I am an economics major from Potomac, MD, outside of Washington D.C. Other than Solar Decathlon, I enjoy music, theatrical design, and photography. The idea of a student-built house pulled me into the project and has kept me interested throughout the process, especially as it gets closer to the competition.");
 $people[] = array(	'name'=>'Ally Silberkleit',		
 					'team'=>'Design',			
 					'path'=>get_template_directory_uri().'/headshots/asilberkleit-small.png', 		
@@ -116,10 +120,14 @@ $people[] = array(	'name'=>'Evan Gallagher',
 					'team'=>'Outreach',
 					'path'=>get_template_directory_uri().'/headshots/evang-small.png',
 					'description'=>"Hey, I\'m Evan. I was born and raised around Boston, MA, where I learned to love tennis, skiing, karate, and roller coasters (I\'ve been on more than 250 of them!). Since coming to Midd, I\'ve become involved with Quiddich, IM sports, and tourguiding, and have also discovered a profound interest both in architecture and environmental studies. On the Solar Decathlon team, I head up the graphic design subdivision, so I\'m very involved with how we visually represent our house to the world.  ");
+$people[] = array(	'name'=>'Eshetu Feleke',
+					'team'=>'Design',
+					'path'=>get_template_directory_uri().'/headshots/edejene-small.png',
+					'description'=>"I'm an Architectural studies Major, Studio Art and French Minor. I've interned with Wossen Architects PLC in Ethiopia over January and I will be studying abroad at the l\'ecole speciale d\'architecture in Paris next year. I\'ve always been interested in Architectural designs and have taken part in several design projects including designing a monument and a monument and a recreational park for the 200th anniversary of Middlebury. I\'m also really interested in green architecture.");
 $people[] = array(	'name'=>'Gwen Cook',
 					'team'=>'Project Coordinator',
 					'path'=>get_template_directory_uri().'/headshots/gcook-small.png',
-					'description'=>"");
+					'description'=>"I was a member of the 2011 Middlebury Solar Decathlon Team and after having such an amazing experience working on that project I couldn\'t wait to apply for the 2013 competition. One of the reasons I decided to attend Middlebury College was because they were renowned for their dedication to sustainability. I am very proud to be a part of a project that is reaching out to thousands of people across the nation to share the enthusiasm we have for working together to redefine the way we live and create a better future.");
 $people[] = array(	'name'=>'Jack Peisch',
 					'team'=>'Outreach',
 					'path'=>get_template_directory_uri().'/headshots/jpeisch-small.png',
@@ -132,10 +140,18 @@ $people[] = array(	'name'=>'Jillian Mock',
 					'team'=>'Outreach',
 					'path'=>get_template_directory_uri().'/headshots/jmock-small.png',
 					'description'=>"Originally from Dallas, Texas, I came to Middlebury excited for the change in weather and the opportunity to learn at one of the premier colleges for environmental studies. Along with the snow, the scenic views, and the delicious local food, the Middlebury community is my favorite part of Vermont living. As an advocate of pairing sustainability and education, I am thrilled to be a part of the outreach team and ready to bring solar decathlon from our school to yours. ");
+$people[] = array(	'name'=>'Jun Chen',
+					'team'=>'Design',
+					'path'=>get_template_directory_uri().'/headshots/jchen-small.png',
+					'description'=>"");
 $people[] = array(	'name'=>'Laura Romig',
 					'team'=>'Finance',
 					'path'=>get_template_directory_uri().'/headshots/lromig-small.png',
 					'description'=>"");
+$people[] = array(	'name'=>'Leif Castren',
+					'team'=>'Research',
+					'path'=>get_template_directory_uri().'/headshots/lcastren-small.png',
+					'description'=>"I joined solar decathlon because I want to have the knowledge to make educated decisions about how I want my own home to work some day.");
 $people[] = array(	'name'=>'Lizzie Durkin',
 					'team'=>'Outreach',
 					'path'=>get_template_directory_uri().'/headshots/edurkin-small.png',
@@ -219,4 +235,7 @@ $faculty[] = array(	'name'=>'Sarah Franco',
 					'role'=>'Administration',
 					'path'=>get_template_directory_uri().'/headshots/sfranco-small.png',
 					'description'=>"I am the Special Projects Coordinator for the Vice President for Administration. In this role, I assist with the research, management, coordination, and communication of College-wide projects, and I serve as the team\'s Administrative Advisor. I hold a M.Ed. in Higher Education from Northeastern University and a B.A. in Religion (focusing on Jewish environmental ethics) from Middlebury College. I\'m proud to support the Solar Decathlon team because it\'s a great opportunity for students to take risks, make mistakes, get messy, achieve success, and make the world a better place from generation to generation. ");
+					
+$sponsors = array();
+$sponsors[] = array('name'=>'Middlebury Environmental Council','url'=>'http://www.middlebury.edu/sustainability/fech/doenv');
 ?>
