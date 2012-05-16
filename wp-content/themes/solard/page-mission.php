@@ -13,10 +13,8 @@
 <div id="content_background">
 	<div id="container">
 
-<?php get_sidebar(); ?>
-
-		<div id="primary">
-			<div id="content" role="main">
+		<div id="primary" class="full-page">
+			<div id="content" role="main" class="mission">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 

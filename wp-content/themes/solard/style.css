@@ -746,7 +746,7 @@ float: right;
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: gray;
-	margin-top: 72px;
+	margin-top: 67px;
 	padding-top: 15px;
 	margin-left: 15px;
 }
@@ -996,21 +996,20 @@ button {
 	left: 436px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Mission Page */
+#content.mission {
+	width: 820px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: 2px solid rgba(43, 144, 53, 1);
+}
+#content.mission p {
+	font-size: 1.3em;
+	margin:30px;
+}
 
 /* Sidebar Stuff */
 #sm-list {
