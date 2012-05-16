@@ -3,7 +3,8 @@
 <div id="slideshow">
 	<div id="slideshow_footer">
 		<div id="slideshow_footer_bar"></div>
-		<p><i>Middlebury College is back in the U.S. Department of Energy Solar Decathlon!</i></p>
+		<p class="left">Early rendering of the exterior of InSite</p>
+		<p class="right"><a href="/design">Read more about our design here ></a></p>
 	</div>
 </div>
 

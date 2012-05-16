@@ -16,7 +16,7 @@
 
 <?php //get_sidebar(); ?>
 
-<div id="page_header">
+<div id="content_header">
 	<h2>Team Middlebury College</h2>
 </div>
 
