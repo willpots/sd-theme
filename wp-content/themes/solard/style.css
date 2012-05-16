@@ -979,14 +979,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	border-bottom: 1px solid gray;
 	padding-top: 20px;
 	padding-bottom: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 #design_link{
 	float: left;
 	height: 100px;
 	width: 290px;
 	position: relative;
-	background-image: url('/img/design/design.png');
+	background-image: url('img/design/design.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 }
@@ -995,7 +995,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	height: 100px;
 	width: 290px;
 	position: relative;
-	background-image: url('/img/design/materials.png');
+	background-image: url('img/design/materials.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 }
@@ -1006,36 +1006,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	height: 100px;
 	width: 290px;
 	position: relative;
-	background-image: url('/img/design/engineering.png');
+	background-image: url('img/design/engineering.png');
 	background-position: center top;
 	background-repeat: no-repeat;
 }
 #design_link.design{
-	
+	background-position-y: -100px;
 }
-#materials_link.design{
-	
+#materials_link.design:hover{
+	background-position-y: -100px;
 }
-#engineering_link.design{
-	
+#engineering_link.design:hover{
+	background-position-y: -100px;
 }
-#design_link.engineering{
-	
+#design_link.engineering:hover{
+	background-position-y: -100px;
 }
-#materials_link.engineering{
-	
+#materials_link.engineering:hover{
+	background-position-y: -100px;
 }
 #engineering_link.engineering{
-	
+	background-position-y: -100px;
 }
-#design_link.materials{
-	
+#design_link.materials:hover{
+	background-position-y: -100px;
 }
 #materials_link.materials{
-	
+	background-position-y: -100px;
 }
-#engineering_link.materials{
-	
+#engineering_link.materials:hover{
+	background-position-y: -100px;
 }
 #design_links.inline{
 	display: inline-block;

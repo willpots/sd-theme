@@ -19,7 +19,7 @@
 </div>
 
 <div id="design_links"> <!-- Links need to be updated before final push -->
-	<a href="/design"></a><div id="design_link" class="design"></div></a>
+	<a href="/design"><div id="design_link" class="design"></div></a>
 	<a href="/materials"><div id="materials_link" class="design"></div></a>
 	<a href="/engineering"><div id="engineering_link" class="design"></div></a>
 </div>
