@@ -2,9 +2,11 @@
 	
 <div id="slideshow">
 	<div id="slideshow_footer">
-		<div id="slideshow_footer_bar"></div>
-		<p class="left">Early rendering of the exterior of InSite</p>
-		<p class="right"><a href="/design">Read more about our design here ></a></p>
+		<div id="slideshow_footer_bar">
+			<div class="right"><a href="/design">Read more about our design here ></a></div>
+			<div class="left">Early rendering of the exterior of InSite</div>
+			<div class="clear"></div>
+		</div>
 	</div>
 </div>
 

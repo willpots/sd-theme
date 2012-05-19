@@ -682,55 +682,50 @@ body.fp-body {
 	margin-top:20px;
 	margin-bottom: 30px;
 	width: 903px;
-	padding: 10px;
-	height: 400px;
+	padding: 5px;
+	height: 280px;
 	border: 1pt solid rgb(168, 159, 143); 
 	background-color: white;
-	background-image: url('img/banner.jpg');
+	background-image: url('img/home.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	
 	box-shadow: 3px 3px 4px #333;
 }
 #slideshow_footer{
-	width:100%;
 	height: 25px;
 	position: relative;
-	top: 375px;
+	top: 255px;
 }
 #slideshow_footer_bar {
-	opacity: 0.5;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter: alpha(opacity=50);
-	background-color: black;
-	width: 100%;
-	height: 100%;
+	background: rgba(0,0,0,.5);
 	z-index: 0
 	position:absolute;
+	padding: 2px 4px;
 }
-#slideshow_footer p.left {
-	z-index: 1;
-	position: absolute;
-	top:-11px;
-	left:0px;
+#slideshow_footer div.left {
+	z-index: 10;
+	float: left;
 	color: white;
-	padding-left: 10px;
-	font-size: 0.9em;
-	height: 100%;
+	padding: 0px 4px;
+	display: inline-block;
 }
-#slideshow_footer p.right a{
-	z-index: 1;
-	position: absolute;
-	top:3px;
-	left:0px;
+#slideshow_footer div.right{
+	z-index: 10;
+	float: right;
 	color: white;
-	padding-left: 10px;
-	font-size: 0.9em;
-	height: 100%;
-	left: 680px;
+	padding: 0px 4px;
+	display: inline-block;
 	text-decoration: none;
 }
-
+#slideshow_footer div.right a:link, 
+#slideshow_footer div.right a:visited {
+	color: white;
+	text-decoration: none;
+}
+#slideshow_footer div.right a:hover {
+	text-decoration: underline;
+}
 /* DA LOOP */
 #loop_header {
 	margin-left: 120px;
@@ -745,20 +740,23 @@ body.fp-body {
 	margin-left: 0px;
 	border-top:1px solid gray;
 	padding-top: 25px;
-	width: 708px;
+	width: 685px;
 }
 .post_author{
 	float: left;
 	width: 120px;
 }
 .post_content{
-	width: 500px;
+	width: 540px;
     margin-left:120px;
     font-size:13px;
 }
 .post_title {
     width: inherit;
     margin:0 0 20px 0;
+}
+.post_title a:hover {
+	color: rgba(43, 144, 53, 1);
 }
 .post_content a {
 	text-decoration: none;
@@ -798,6 +796,7 @@ body.fp-body {
 	box-shadow: 0;
 	border: 1pt solid hsl(38, 13%, 61%);
 	padding: 3px;
+	width: 190px;
 	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	font-style: italic;
@@ -890,6 +889,11 @@ body.fp-body {
 	width: 510px;
 
 }
+#content_header.team {
+	width: auto;
+	text-align: center;
+	padding: 20px;
+}
 /* Sponsor Logos */
 .sponsor_logo {
 	/*width: 200px;
@@ -939,15 +943,15 @@ body.fp-body {
 .team-member {
 	display: block;
 	float: left;
-	width: 100px;
-	height: 100px;
+	width: 102px;
+	height: 102px;
 	position: relative;
 }
 .team-photo {
 	position: absolute;
 	display: block;
-	width: 100px;
-	height: 100px;
+	width: 102px;
+	height: 102px;
 	margin: 0;
 	padding: 0;
 }
@@ -960,7 +964,7 @@ body.fp-body {
 	background: rgba(0,0,0,.5);
 	color: white;
 	opacity: 0;
-	padding: 5px;
+	padding: 6px;
 	width: 90px;
 	height: 90px;
 	text-align: center;
